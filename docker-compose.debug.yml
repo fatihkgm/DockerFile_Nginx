@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  webappdocker:
+    image: webappdocker
+    build:
+      context: .
+      dockerfile: ./Dockerfile

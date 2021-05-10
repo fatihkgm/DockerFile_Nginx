@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  slickopl:
+    image: slickopl
+    build:
+      context: .
+      dockerfile: ./Dockerfile
